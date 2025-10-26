@@ -1,14 +1,6 @@
 import { Alert, Snackbar } from "@mui/material";
 import { Navbar, OTPModal } from "./components";
-import {
-  Header,
-  About,
-  Services,
-  Work,
-  Footer,
-  Clients,
-  Contact,
-} from "./pages";
+import { Header, About, Services, Work, Footer, Clients, Contact, } from "./pages";
 import { Menu, North } from "@mui/icons-material";
 import { useScroll, useSpring, motion } from "framer-motion";
 import { useRef } from "react";
@@ -99,7 +91,7 @@ const App = () => {
       {/* Alert Topbar - Will be opened if user close the auth modal */}
       <Snackbar
         open={showAlertTopbar}
-        onClose={() => {}}
+        onClose={() => { }}
         anchorOrigin={{ vertical: "top", horizontal: "center" }}
       >
         <Alert
@@ -120,9 +112,8 @@ const App = () => {
 
       <div
         style={{ transition: "all 0.5s linear" }}
-        className={`${
-          scrolled && "bg-black"
-        } rounded-[4px] z-50 px-[10px] py-[4px] flex justify-between items-center gap-[1rem] fixed right-[20px] top-[30px]  sm:right-[20px] sm:top-[30px]  md:right-[64px] md:top-[2rem] `}
+        className={`${scrolled && "bg-black"
+          } rounded-[4px] z-50 px-[10px] py-[4px] flex justify-between items-center gap-[1rem] fixed right-[20px] top-[30px]  sm:right-[20px] sm:top-[30px]  md:right-[64px] md:top-[2rem] `}
       >
         <p className={`text-green text-[24px] `}>Menu</p>
         <button

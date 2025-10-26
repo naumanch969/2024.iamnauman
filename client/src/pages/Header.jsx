@@ -1,27 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
-import { Facebook, Twitter, Instagram, KeyboardArrowDown } from '@mui/icons-material';
 import { getRandomNumber } from '../utils/functions';
-import {
-    FaHtml5,
-    FaNodeJs,
-    FaReact,
-    FaCss3Alt,
-    FaGithub,
-    FaGitAlt,
-    FaCode,
-} from 'react-icons/fa';
+import { FaHtml5, FaNodeJs, FaReact, FaCss3Alt, FaGithub, FaGitAlt, FaCode, } from 'react-icons/fa';
 import { RiMiniProgramFill } from 'react-icons/ri';
-import {
-    SiExpress,
-    SiTailwindcss,
-    SiRedux,
-    SiMongodb,
-    SiMongoose,
-    SiMui,
-    SiAxios,
-} from 'react-icons/si';
+import { SiExpress, SiTailwindcss, SiRedux, SiMongodb, SiMongoose, SiMui, SiAxios, } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io';
 import { TbBrandVscode } from 'react-icons/tb';
 import { BsFillFileEarmarkCodeFill } from 'react-icons/bs';
